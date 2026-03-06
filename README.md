@@ -27,13 +27,13 @@ Este projeto demonstra uma pipeline CI/CD profissional com GitHub Actions, inclu
 
 A cada **push** ou **pull request** na branch `main`, a pipeline executa automaticamente:
 
-| Etapa | Ferramenta | Descricao |
-|-------|-----------|-----------|
-| **Lint** | ESLint + Prettier | Verifica erros e formatacao do codigo |
-| **Testes** | Vitest | Roda testes unitarios com cobertura |
-| **Build** | Vite | Gera o build otimizado de producao |
-| **Seguranca** | npm audit | Verifica vulnerabilidades nas dependencias |
-| **Deploy** | GitHub Pages | Publica automaticamente (apenas na `main`) |
+| Etapa         | Ferramenta        | Descricao                                  |
+| ------------- | ----------------- | ------------------------------------------ |
+| **Lint**      | ESLint + Prettier | Verifica erros e formatacao do codigo      |
+| **Testes**    | Vitest            | Roda testes unitarios com cobertura        |
+| **Build**     | Vite              | Gera o build otimizado de producao         |
+| **Seguranca** | npm audit         | Verifica vulnerabilidades nas dependencias |
+| **Deploy**    | GitHub Pages      | Publica automaticamente (apenas na `main`) |
 
 ---
 
@@ -66,14 +66,14 @@ https://isaddorafreitasaugus.github.io/gh-actions-deploy/
 
 ## Tech Stack
 
-| Tecnologia | Uso |
-|-----------|-----|
-| **Vite** | Build tool e dev server |
-| **ESLint** | Linter de JavaScript |
-| **Prettier** | Formatacao de codigo |
-| **Vitest** | Framework de testes |
-| **GitHub Actions** | CI/CD |
-| **GitHub Pages** | Hospedagem |
+| Tecnologia         | Uso                     |
+| ------------------ | ----------------------- |
+| **Vite**           | Build tool e dev server |
+| **ESLint**         | Linter de JavaScript    |
+| **Prettier**       | Formatacao de codigo    |
+| **Vitest**         | Framework de testes     |
+| **GitHub Actions** | CI/CD                   |
+| **GitHub Pages**   | Hospedagem              |
 
 ---
 
@@ -104,18 +104,18 @@ npm run build
 
 ## Scripts disponiveis
 
-| Script | Descricao |
-|--------|-----------|
-| `npm run dev` | Inicia o servidor de desenvolvimento |
-| `npm run build` | Gera o build de producao |
-| `npm run preview` | Preview do build local |
-| `npm run lint` | Verifica erros com ESLint |
-| `npm run lint:fix` | Corrige erros automaticamente |
-| `npm run format` | Formata codigo com Prettier |
-| `npm run format:check` | Verifica se o codigo esta formatado |
-| `npm test` | Roda os testes |
-| `npm run test:watch` | Testes em modo watch |
-| `npm run test:coverage` | Testes com relatorio de cobertura |
+| Script                  | Descricao                            |
+| ----------------------- | ------------------------------------ |
+| `npm run dev`           | Inicia o servidor de desenvolvimento |
+| `npm run build`         | Gera o build de producao             |
+| `npm run preview`       | Preview do build local               |
+| `npm run lint`          | Verifica erros com ESLint            |
+| `npm run lint:fix`      | Corrige erros automaticamente        |
+| `npm run format`        | Formata codigo com Prettier          |
+| `npm run format:check`  | Verifica se o codigo esta formatado  |
+| `npm test`              | Roda os testes                       |
+| `npm run test:watch`    | Testes em modo watch                 |
+| `npm run test:coverage` | Testes com relatorio de cobertura    |
 
 ---
 
